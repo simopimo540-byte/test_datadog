@@ -1,0 +1,7 @@
+priority_rules:
+  - name: sddssd12333
+    priority: medium
+    conditions:
+      - and:
+          - base = main
+    allow_checks_interruption: true
